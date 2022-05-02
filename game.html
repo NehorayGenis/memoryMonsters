@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My App</title>
+  <link rel="stylesheet" href="css/game.css" />
+</head>
+
+<body>
+  <div class="header">
+    <h4 class="oldRecord">best record</h4>
+    <h4 class="countdown">0</h4>
+    <button class="changeUser" onclick="changeUser()">Change User</button>
+    <h1 class="title">Memory Monsters</h1>
+    <h3 class="playerName">guest</h3>
+    <img src="img/layout/logo.png" class="monsterImage">
+  </div>
+  <div class="board">
+  <div class="card" data-card="1" onclick="cardClicked(this)">
+    <img src="img/cards/1.png">
+    <img class="back" src="img/cards/back.png">
+  </div>
+  <div class="card" data-card="7" onclick="cardClicked(this)">
+    <img src="img/cards/7.png">
+    <img class="back" src="img/cards/back.png">
+  </div>
+  <div class="card" data-card="1" onclick="cardClicked(this)">
+    <img src="img/cards/1.png">
+    <img class="back" src="img/cards/back.png">
+  </div>
+  <div class="card" data-card="7" onclick="cardClicked(this)">
+    <img src="img/cards/7.png">
+    <img class="back" src="img/cards/back.png">
+  </div>
+  <div class="card" data-card="5" onclick="cardClicked(this)">
+    <img src="img/cards/5.png">
+    <img class="back" src="img/cards/back.png">
+  </div>
+  <div class="card" data-card="5" onclick="cardClicked(this)">
+    <img src="img/cards/5.png">
+    <img class="back" src="img/cards/back.png">
+  </div>
+</div>
+  <h4 class="stopwatch">00:00:00</h4>
+  <footer>
+    <button class="toggle" onclick="resetScore()">Play Again!</button>
+  </footer>
+
+
+  <script src="js/game.js"></script>
+</body>
+
+</html>

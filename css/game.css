@@ -1,0 +1,75 @@
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom: 10px solid darkcyan;
+    color:darkcyan;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.header img {
+    right:1%;
+    top: 10%;
+    position:absolute;
+}
+
+.card {
+    background-color: pink;
+    height: 165px;
+    width: 165px;
+    padding-top: 4%;
+    padding-left: 4%;
+    display: inline-block;
+    width: 12%;
+    height: 250px;
+    text-align: start;
+}
+
+.card img {
+    position: absolute;
+}
+
+.flipped .back {
+    display: none;
+    position: absolute;
+}
+
+.toggle{
+    background-color: #c6eeee;
+    color: black;
+    border: whitesmoke;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    display: none;
+    position: fixed;     
+    text-align: center;    
+    bottom: 10%;
+    left: 50%; 
+}
+  
+.changeUser{
+    background-color: white;
+    text-align: center;
+    left: 50%; 
+}
+
+.countdown{
+    float: left;
+    display: inline;
+    font-stretch: expanded;
+}
+
+.oldRecord{
+    float: right;
+}
+
+.playerName{
+    width: 100;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
